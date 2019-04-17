@@ -162,7 +162,7 @@ void server_fini(struct sway_server *server) {
 
 bool server_start(struct sway_server *server) {
 	// TODO: configurable cursor theme and size
-	int cursor_size = 24;
+	int cursor_size = 72;
 	const char *cursor_theme = NULL;
 
 	char cursor_size_fmt[16];
