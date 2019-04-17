@@ -728,7 +728,7 @@ void seat_configure_xcursor(struct sway_seat *seat) {
 
 	if (!seat->cursor->xcursor_manager) {
 		seat->cursor->xcursor_manager =
-			wlr_xcursor_manager_create(cursor_theme, 24);
+			wlr_xcursor_manager_create(cursor_theme, 72);
 		if (sway_assert(seat->cursor->xcursor_manager,
 					"Cannot create XCursor manager for theme")) {
 			return;
